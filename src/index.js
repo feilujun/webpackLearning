@@ -3,6 +3,7 @@ import data from './data.json'
 import $ from 'jquery';
 import styles from './index.css'
 import styless from './index.less'
+import './icon/iconfont.css'
 
 $('#title').click(() => {
     $('body').css('backgroundColor', 'deeppink')
